@@ -1,7 +1,7 @@
 FROM caddy:2.0.0-builder AS builder
 
 RUN caddy-builder \
-    https://github.com/caddy-dns/cloudflare
+    github.com/caddy-dns/cloudflare
 
 FROM caddy:2.0.0
 
